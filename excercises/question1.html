@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;}
+        .yellow{
+            background-color: yellow; margin-right: 5px;}
+        .orange{
+            background-color: orange;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="yellow" onclick="alert('item has been added to cart')">Add to cart</button>
+        <button class="orange" onclick="console.log('loading'), alert('Purchased')">
+            Buy Now 
+        </button>
+    </div>
+</body>
+</html>
