@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Booleans</title>
+</head>
+<body>
+
+   
+    <script>
+        console.log(3 < 5);
+
+        if (false){
+            console.log('hello')
+        } else{
+            console.log('else')
+        }
+        
+        console.log(typeof true);
+        //the difference between double equals and tripple is that
+        //the double equals turns the values it compares to the same type
+        //why the tripple equals do not convert the values it compares to same type
+        //same for != !==
+        console.log(5 == '5.00');
+        console.log(5 === '5.0');
+
+        const age = 15;
+        if (age >= 16) {
+            console.log('you can drive')
+        } else if(age >= 14) {
+            console.log('almost there')
+        } else{
+            console.log('not old enough to drive')
+        }
+
+        //logical operators
+        console.log(true && true); // and operator
+        console.log(true || false); // or operator
+        console.log(!true); // not operator
+
+        //tarnery operators. you can save it in a variable
+        const result = true ? 'truthy' : 'falsy';
+        console.log(result);
+    </script>
+</body>
+</html>
