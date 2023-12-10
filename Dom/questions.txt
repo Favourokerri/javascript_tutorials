@@ -1,0 +1,1 @@
+1)  list the number of ways you can select an element from the dom

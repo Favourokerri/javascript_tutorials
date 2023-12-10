@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        • Write a program to calculate the total price of your phone pur‐
+        chase. You will keep purchasing phones (hint: loop!) until you
+        run out of money in your bank account.
+    </p>
+    <script>
+        let phoneprice = 30.00;
+        var account_balance = 7899.00;
+        var numberOfPhones = 0;
+        console.log('welcome to shopify where you buy untill u run out of cash ')
+
+        if (account_balance >= phoneprice) {
+
+            while (account_balance >= phoneprice) {
+                console.log("you are about to purchase a phone");
+                account_balance = account_balance - phoneprice;
+                numberOfPhones += 1;
+            }
+            console.log('you ran out of money');
+            console.log('account balance is: $' + account_balance);
+            console.log("you got " + numberOfPhones + " numbers of phones");
+        }
+    </script>
+</body>
+</html>
