@@ -5,7 +5,7 @@ console.log(first, second, rest)
 
 const people = {'name': "john"}
 
-const getAverage = (name, ...scores) => {
+const getTotal = (name, ...scores) => {
     console.log(name);
     total = scores.reduce((total, score) => {
         total += score;
